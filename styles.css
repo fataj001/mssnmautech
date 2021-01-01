@@ -1,0 +1,239 @@
+body {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.966);
+  background-color: #f3f1f3;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #1928f6;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  /* background: url('../images/mainlogo.png') no-repeat; */
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #ffffff;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgb(211, 24, 24);
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .95;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #ffffff;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #58c2c2d8;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #199cda;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    /* background: url('../images/mainlogomd.png') no-repeat; */
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+}
+
+
+
+/* Section */
+.slider_banner{
+    margin-top: 20px;
+}
+.slider_banner h3 {
+    color:rgb(255, 255, 255);
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+    text-transform: uppercase;
+    
+}
+
+.slider_banner p { /* Kosher cert */
+  margin-top: 12px;
+  font-size: 1vw;
+  color: #fff;
+}
+
+
+.wp-caption-text {
+    display: block;
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%) repeat 0 0;
+    color: rgb(255, 255, 255);
+    left: 0;
+    bottom: 0;
+    padding: 1em;
+    font-weight: 700;
+    z-index: 2;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
+.cours img {
+    display: inline;
+    text-align: center;
+}
+blockquote {
+    color: royalblue;
+}
+
+
+@media (max-width: 767px) {
+        /* Header */
+
+        .slider_banner {
+            padding-top: 10px;
+            height: auto;
+
+        }
+
+        .slider_banner h3 {
+            color:rgb(255, 255, 255);
+            padding-top: 10px;
+            font-size: 5vw; /* 1vw = 1% of viewport width */
+            text-transform: uppercase;
+            
+        }
+
+        .slider_banner p { /* Kosher cert */
+          font-size: .7em;
+          margin-top: 12px;
+          color: #fff;
+        }
+
+        #collapsable-nav a { /* Collapsed nav menu text */
+          font-size: 1.2em;
+        }
+        #collapsable-nav a span { /* Collapsed nav menu glyph */
+          font-size: 1em;
+          margin-right: 5px;
+        }
+      
+        #call-btn > a {
+          font-size: 1.5em;
+          display: block;
+          margin: 0 20px;
+          padding: 10px;
+          border: 2px solid #fff;
+          background-color: #f6b319;
+          color: #951c49;
+        }
+        #xs-deliver {
+          margin-top: 5px;
+          font-size: .7em;
+          letter-spacing: .1em;
+          text-transform: uppercase;
+        }
+        /* End Header */
+      /* Section */
+      .wp-caption {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        
+        }
+        .wp-caption img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        }
+        .wp-caption:after {
+        content: "";
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%) repeat 0 0;
+        color: lightcyan;
+        height: auto;
+        z-index: 1;
+        }
+        .wp-caption-text {
+        display: block;
+        position: absolute;
+        width: 100%;
+        color: rgb(255, 255, 255);
+        left: 0;
+        bottom: 0;
+        padding: 1em;
+        font-weight: 700;
+        z-index: 2;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        }
+      }
+
+.prayer {
+    color:#fff;
+    font-weight: 70px;
+    text-transform: uppercase;
+    text-shadow: brown;
+    text-align: center;
+}
+
+.img_footer {
+    width: 200px;
+    height: 150px;
+    display: inline;
+    text-align: center;
+}
